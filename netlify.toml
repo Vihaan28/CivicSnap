@@ -1,0 +1,9 @@
+[build]
+  publish = "frontend"
+  functions = "backend"
+  command = "npm install --legacy-peer-deps"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
